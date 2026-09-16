@@ -1,0 +1,1 @@
+import{t as e}from"./rsc-CyJub8-H.js";var t=e(()=>{throw Error(`Unexpectedly client reference export 'InquiryForm' is called on server`)},`613d98c33e2b`,`InquiryForm`);export{t};

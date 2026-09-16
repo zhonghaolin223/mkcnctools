@@ -1,0 +1,1 @@
+import{t as e}from"./rsc-CyJub8-H.js";var t=e(()=>{throw Error(`Unexpectedly client reference export 'ProductGrid' is called on server`)},`05ab29240c46`,`ProductGrid`);export{t};

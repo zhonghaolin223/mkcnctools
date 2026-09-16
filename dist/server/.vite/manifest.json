@@ -1,0 +1,749 @@
+{
+  "_admin-auth-ySyn46AL.js": {
+    "file": "_next/static/admin-auth-ySyn46AL.js",
+    "name": "admin-auth",
+    "imports": [
+      "_chatgpt-auth-DbIbMtLP.js"
+    ]
+  },
+  "_als-registry-BxXlcmpy.js": {
+    "file": "_next/static/als-registry-BxXlcmpy.js",
+    "name": "als-registry"
+  },
+  "_app-page-cache-finalizer-BA53Xndx.js": {
+    "file": "_next/static/app-page-cache-finalizer-BA53Xndx.js",
+    "name": "app-page-cache-finalizer",
+    "imports": [
+      "_cache-headers-VyhEGR6P.js",
+      "_isr-cache-CpbGn2iH.js",
+      "_text-stream-wnAI8qFu.js",
+      "_headers-D6xdAAX3.js"
+    ]
+  },
+  "_app-page-stream-CuoU-0bl.js": {
+    "file": "_next/static/app-page-stream-CuoU-0bl.js",
+    "name": "app-page-stream",
+    "imports": [
+      "_rolldown-runtime-DUnMT5BP.js",
+      "_framework~index~page~page~route~route~route~route~route~route~route~route~route~page~page~p~czfmq2vu-tmcJqcRj.js",
+      "_cache-headers-VyhEGR6P.js",
+      "_text-stream-wnAI8qFu.js",
+      "_headers-D6xdAAX3.js",
+      "_implicit-tags-CBg7R7Gf.js",
+      "_headers-BwVXsraU.js",
+      "_base-path-DoTXrg9A.js"
+    ]
+  },
+  "_app-prerender-static-params-B3KsJomc.js": {
+    "file": "_next/static/app-prerender-static-params-B3KsJomc.js",
+    "name": "app-prerender-static-params",
+    "imports": [
+      "_root-params-BZMBYgEb.js",
+      "_record-DunW85rk.js"
+    ]
+  },
+  "_app-segment-config-SPj7C3qy.js": {
+    "file": "_next/static/app-segment-config-SPj7C3qy.js",
+    "name": "app-segment-config",
+    "imports": [
+      "_dist-ByaxdVIR.js",
+      "_headers-D6xdAAX3.js",
+      "_http-error-responses-MHMqC7hK.js",
+      "_headers-BwVXsraU.js",
+      "_base-path-DoTXrg9A.js"
+    ]
+  },
+  "_base-path-DoTXrg9A.js": {
+    "file": "_next/static/base-path-DoTXrg9A.js",
+    "name": "base-path"
+  },
+  "_cache-headers-VyhEGR6P.js": {
+    "file": "_next/static/cache-headers-VyhEGR6P.js",
+    "name": "cache-headers",
+    "imports": [
+      "_rolldown-runtime-DUnMT5BP.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js",
+      "_framework~index~page~page~route~route~route~route~route~route~route~route~route~page~page~p~czfmq2vu-tmcJqcRj.js",
+      "_headers-D6xdAAX3.js",
+      "_headers-BwVXsraU.js",
+      "_als-registry-BxXlcmpy.js",
+      "_unified-request-context-qhL7wVUy.js",
+      "_record-DunW85rk.js"
+    ]
+  },
+  "_chatgpt-auth-DbIbMtLP.js": {
+    "file": "_next/static/chatgpt-auth-DbIbMtLP.js",
+    "name": "chatgpt-auth",
+    "imports": [
+      "_navigation.react-server-0QdkGV3i.js",
+      "_headers-BwVXsraU.js",
+      "_navigation-errors-YmIk8EAc.js"
+    ]
+  },
+  "_db-CY5JNkVv.js": {
+    "file": "_next/static/db-CY5JNkVv.js",
+    "name": "db",
+    "imports": [
+      "_rolldown-runtime-DUnMT5BP.js"
+    ]
+  },
+  "_dist-ByaxdVIR.js": {
+    "file": "_next/static/dist-ByaxdVIR.js",
+    "name": "dist"
+  },
+  "_framework~index-fpXJPD_H.js": {
+    "file": "_next/static/framework~index-fpXJPD_H.js",
+    "name": "framework~index",
+    "imports": [
+      "_rolldown-runtime-DUnMT5BP.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~bfhdtq8j-BUgaHfS7.js"
+    ]
+  },
+  "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~bfhdtq8j-BUgaHfS7.js": {
+    "file": "_next/static/framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~bfhdtq8j-BUgaHfS7.js",
+    "name": "framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~bfhdtq8j",
+    "imports": [
+      "_rolldown-runtime-DUnMT5BP.js",
+      "_framework~index~page~page~route~route~route~route~route~route~route~route~route~page~page~p~czfmq2vu-tmcJqcRj.js"
+    ]
+  },
+  "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js": {
+    "file": "_next/static/framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js",
+    "name": "framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto",
+    "imports": [
+      "_rolldown-runtime-DUnMT5BP.js",
+      "_framework~index~page~page~route~route~route~route~route~route~route~route~route~page~page~p~czfmq2vu-tmcJqcRj.js"
+    ]
+  },
+  "_framework~index~page~page~route~route~route~route~route~route~route~route~route~page~page~p~czfmq2vu-tmcJqcRj.js": {
+    "file": "_next/static/framework~index~page~page~route~route~route~route~route~route~route~route~route~page~page~p~czfmq2vu-tmcJqcRj.js",
+    "name": "framework~index~page~page~route~route~route~route~route~route~route~route~route~page~page~p~czfmq2vu",
+    "imports": [
+      "_rolldown-runtime-DUnMT5BP.js"
+    ]
+  },
+  "_headers-BwVXsraU.js": {
+    "file": "_next/static/headers-BwVXsraU.js",
+    "name": "headers",
+    "imports": [
+      "_headers-D6xdAAX3.js",
+      "_als-registry-BxXlcmpy.js",
+      "_ppr-fallback-shell-F8H6YPkD.js",
+      "_unified-request-context-qhL7wVUy.js"
+    ]
+  },
+  "_headers-D6xdAAX3.js": {
+    "file": "_next/static/headers-D6xdAAX3.js",
+    "name": "headers"
+  },
+  "_http-error-responses-MHMqC7hK.js": {
+    "file": "_next/static/http-error-responses-MHMqC7hK.js",
+    "name": "http-error-responses"
+  },
+  "_implicit-tags-CBg7R7Gf.js": {
+    "file": "_next/static/implicit-tags-CBg7R7Gf.js",
+    "name": "implicit-tags",
+    "imports": [
+      "_cache-headers-VyhEGR6P.js",
+      "_redirect-digest-BV6xQy3C.js"
+    ]
+  },
+  "_inquiry-form-CT7potkG.js": {
+    "file": "_next/static/inquiry-form-CT7potkG.js",
+    "name": "inquiry-form",
+    "imports": [
+      "_rsc-CyJub8-H.js"
+    ]
+  },
+  "_isr-cache-CpbGn2iH.js": {
+    "file": "_next/static/isr-cache-CpbGn2iH.js",
+    "name": "isr-cache",
+    "imports": [
+      "_dist-ByaxdVIR.js",
+      "_cache-headers-VyhEGR6P.js"
+    ]
+  },
+  "_link-QnZXme29.js": {
+    "file": "_next/static/link-QnZXme29.js",
+    "name": "link",
+    "imports": [
+      "_rsc-CyJub8-H.js"
+    ]
+  },
+  "_metadata-routes-DfQkLlTX.js": {
+    "file": "_next/static/metadata-routes-DfQkLlTX.js",
+    "name": "metadata-routes",
+    "imports": [
+      "_dist-ByaxdVIR.js",
+      "_route-pattern-CaA5oEFg.js"
+    ]
+  },
+  "_navigation-errors-YmIk8EAc.js": {
+    "file": "_next/static/navigation-errors-YmIk8EAc.js",
+    "name": "navigation-errors",
+    "imports": [
+      "_rolldown-runtime-DUnMT5BP.js",
+      "_framework~index~page~page~route~route~route~route~route~route~route~route~route~page~page~p~czfmq2vu-tmcJqcRj.js"
+    ]
+  },
+  "_navigation-runtime-DEBDBkAP.js": {
+    "file": "_next/static/navigation-runtime-DEBDBkAP.js",
+    "name": "navigation-runtime",
+    "imports": [
+      "_cache-headers-VyhEGR6P.js"
+    ]
+  },
+  "_navigation.react-server-0QdkGV3i.js": {
+    "file": "_next/static/navigation.react-server-0QdkGV3i.js",
+    "name": "navigation.react-server",
+    "imports": [
+      "_navigation-errors-YmIk8EAc.js"
+    ]
+  },
+  "_page-header-ChK597ag.js": {
+    "file": "_next/static/page-header-ChK597ag.js",
+    "name": "page-header",
+    "imports": [
+      "_whatsapp-button-KUaBPej1.js",
+      "_rsc-CyJub8-H.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js"
+    ]
+  },
+  "_ppr-fallback-shell-F8H6YPkD.js": {
+    "file": "_next/static/ppr-fallback-shell-F8H6YPkD.js",
+    "name": "ppr-fallback-shell",
+    "imports": [
+      "_als-registry-BxXlcmpy.js"
+    ]
+  },
+  "_product-grid-BtFSXqUC.js": {
+    "file": "_next/static/product-grid-BtFSXqUC.js",
+    "name": "product-grid",
+    "imports": [
+      "_rsc-CyJub8-H.js"
+    ]
+  },
+  "_product-input-Cmy9kDLd.js": {
+    "file": "_next/static/product-input-Cmy9kDLd.js",
+    "name": "product-input"
+  },
+  "_record-DunW85rk.js": {
+    "file": "_next/static/record-DunW85rk.js",
+    "name": "record"
+  },
+  "_redirect-digest-BV6xQy3C.js": {
+    "file": "_next/static/redirect-digest-BV6xQy3C.js",
+    "name": "redirect-digest"
+  },
+  "_request-security-CQWxSkrU.js": {
+    "file": "_next/static/request-security-CQWxSkrU.js",
+    "name": "request-security"
+  },
+  "_rolldown-runtime-DUnMT5BP.js": {
+    "file": "_next/static/rolldown-runtime-DUnMT5BP.js",
+    "name": "rolldown-runtime"
+  },
+  "_root-params-BZMBYgEb.js": {
+    "file": "_next/static/root-params-BZMBYgEb.js",
+    "name": "root-params",
+    "imports": [
+      "_als-registry-BxXlcmpy.js",
+      "_unified-request-context-qhL7wVUy.js"
+    ]
+  },
+  "_route-pattern-CaA5oEFg.js": {
+    "file": "_next/static/route-pattern-CaA5oEFg.js",
+    "name": "route-pattern",
+    "imports": [
+      "_dist-ByaxdVIR.js"
+    ]
+  },
+  "_rsc-CyJub8-H.js": {
+    "file": "_next/static/rsc-CyJub8-H.js",
+    "name": "rsc",
+    "imports": [
+      "_rolldown-runtime-DUnMT5BP.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~bfhdtq8j-BUgaHfS7.js"
+    ]
+  },
+  "_site-url-B5OYaSEg.js": {
+    "file": "_next/static/site-url-B5OYaSEg.js",
+    "name": "site-url"
+  },
+  "_text-stream-wnAI8qFu.js": {
+    "file": "_next/static/text-stream-wnAI8qFu.js",
+    "name": "text-stream",
+    "imports": [
+      "_cache-headers-VyhEGR6P.js",
+      "_headers-D6xdAAX3.js",
+      "_headers-BwVXsraU.js"
+    ]
+  },
+  "_thenable-params-D5ZNex6l.js": {
+    "file": "_next/static/thenable-params-D5ZNex6l.js",
+    "name": "thenable-params",
+    "imports": [
+      "_ppr-fallback-shell-F8H6YPkD.js"
+    ]
+  },
+  "_unified-request-context-qhL7wVUy.js": {
+    "file": "_next/static/unified-request-context-qhL7wVUy.js",
+    "name": "unified-request-context",
+    "imports": [
+      "_als-registry-BxXlcmpy.js"
+    ]
+  },
+  "_view-tracker-B9jshHCb.js": {
+    "file": "_next/static/view-tracker-B9jshHCb.js",
+    "name": "view-tracker",
+    "imports": [
+      "_rsc-CyJub8-H.js"
+    ]
+  },
+  "_whatsapp-button-KUaBPej1.js": {
+    "file": "_next/static/whatsapp-button-KUaBPej1.js",
+    "name": "whatsapp-button",
+    "imports": [
+      "_rsc-CyJub8-H.js"
+    ]
+  },
+  "app/about/page.tsx": {
+    "file": "_next/static/page-CfYOQ3-t.js",
+    "name": "page",
+    "src": "app/about/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_page-header-ChK597ag.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js"
+    ]
+  },
+  "app/admin/page.tsx": {
+    "file": "_next/static/page-CEe_iAVI.js",
+    "name": "page",
+    "src": "app/admin/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_chatgpt-auth-DbIbMtLP.js",
+      "_admin-auth-ySyn46AL.js",
+      "_rsc-CyJub8-H.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js",
+      "_navigation.react-server-0QdkGV3i.js",
+      "_navigation-errors-YmIk8EAc.js"
+    ]
+  },
+  "app/api/categories/[id]/route.ts": {
+    "file": "_next/static/route-QnPdKdQN.js",
+    "name": "route",
+    "src": "app/api/categories/[id]/route.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_db-CY5JNkVv.js",
+      "_admin-auth-ySyn46AL.js"
+    ]
+  },
+  "app/api/categories/route.ts": {
+    "file": "_next/static/route-CQO4q_pS.js",
+    "name": "route",
+    "src": "app/api/categories/route.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_db-CY5JNkVv.js",
+      "_admin-auth-ySyn46AL.js"
+    ]
+  },
+  "app/api/events/admin/route.ts": {
+    "file": "_next/static/route-DZE3Gqa7.js",
+    "name": "route",
+    "src": "app/api/events/admin/route.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_db-CY5JNkVv.js",
+      "_admin-auth-ySyn46AL.js"
+    ]
+  },
+  "app/api/events/route.ts": {
+    "file": "_next/static/route-niukLvJF.js",
+    "name": "route",
+    "src": "app/api/events/route.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_db-CY5JNkVv.js",
+      "_request-security-CQWxSkrU.js"
+    ]
+  },
+  "app/api/inquiries/admin/[id]/route.ts": {
+    "file": "_next/static/route-CZreEUGL.js",
+    "name": "route",
+    "src": "app/api/inquiries/admin/[id]/route.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_db-CY5JNkVv.js",
+      "_admin-auth-ySyn46AL.js"
+    ]
+  },
+  "app/api/inquiries/admin/route.ts": {
+    "file": "_next/static/route-CbXaV3F1.js",
+    "name": "route",
+    "src": "app/api/inquiries/admin/route.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_db-CY5JNkVv.js",
+      "_admin-auth-ySyn46AL.js"
+    ]
+  },
+  "app/api/inquiries/route.ts": {
+    "file": "_next/static/route-CxrrH-Ie.js",
+    "name": "route",
+    "src": "app/api/inquiries/route.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_db-CY5JNkVv.js",
+      "_request-security-CQWxSkrU.js"
+    ]
+  },
+  "app/api/media/[id]/route.ts": {
+    "file": "_next/static/route-Biz_u7Bo.js",
+    "name": "route",
+    "src": "app/api/media/[id]/route.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_db-CY5JNkVv.js"
+    ]
+  },
+  "app/api/media/route.ts": {
+    "file": "_next/static/route-Dyj_CCqk.js",
+    "name": "route",
+    "src": "app/api/media/route.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_db-CY5JNkVv.js",
+      "_admin-auth-ySyn46AL.js"
+    ]
+  },
+  "app/api/posts/route.ts": {
+    "file": "_next/static/route-NhxnyqNR.js",
+    "name": "route",
+    "src": "app/api/posts/route.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_db-CY5JNkVv.js",
+      "_admin-auth-ySyn46AL.js"
+    ]
+  },
+  "app/api/products/[id]/route.ts": {
+    "file": "_next/static/route-L_e12e8-.js",
+    "name": "route",
+    "src": "app/api/products/[id]/route.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_db-CY5JNkVv.js",
+      "_admin-auth-ySyn46AL.js",
+      "_product-input-Cmy9kDLd.js"
+    ]
+  },
+  "app/api/products/route.ts": {
+    "file": "_next/static/route-BxWIHmGD.js",
+    "name": "route",
+    "src": "app/api/products/route.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_db-CY5JNkVv.js",
+      "_admin-auth-ySyn46AL.js",
+      "_product-input-Cmy9kDLd.js"
+    ]
+  },
+  "app/blog/[slug]/page.tsx": {
+    "file": "_next/static/page-BOh4kPr9.js",
+    "name": "page",
+    "src": "app/blog/[slug]/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_whatsapp-button-KUaBPej1.js",
+      "_db-CY5JNkVv.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js",
+      "_navigation.react-server-0QdkGV3i.js",
+      "_link-QnZXme29.js",
+      "_navigation-errors-YmIk8EAc.js"
+    ]
+  },
+  "app/blog/page.tsx": {
+    "file": "_next/static/page-DsvabdCm.js",
+    "name": "page",
+    "src": "app/blog/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_page-header-ChK597ag.js",
+      "_db-CY5JNkVv.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js",
+      "_link-QnZXme29.js"
+    ]
+  },
+  "app/contact/page.tsx": {
+    "file": "_next/static/page-DkhcKgDv.js",
+    "name": "page",
+    "src": "app/contact/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_page-header-ChK597ag.js",
+      "_inquiry-form-CT7potkG.js",
+      "_whatsapp-button-KUaBPej1.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js"
+    ]
+  },
+  "app/factory/page.tsx": {
+    "file": "_next/static/page-BAKDVitl.js",
+    "name": "page",
+    "src": "app/factory/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_page-header-ChK597ag.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js"
+    ]
+  },
+  "app/oem-odm/page.tsx": {
+    "file": "_next/static/page-Ckp2a3Kt.js",
+    "name": "page",
+    "src": "app/oem-odm/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_page-header-ChK597ag.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js"
+    ]
+  },
+  "app/page.tsx": {
+    "file": "_next/static/page-CK0oMHqP.js",
+    "name": "page",
+    "src": "app/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_whatsapp-button-KUaBPej1.js",
+      "_rsc-CyJub8-H.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js",
+      "_link-QnZXme29.js"
+    ]
+  },
+  "app/privacy/page.tsx": {
+    "file": "_next/static/page-47Tu128P.js",
+    "name": "page",
+    "src": "app/privacy/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_page-header-ChK597ag.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js"
+    ]
+  },
+  "app/product-categories/[slug]/page.tsx": {
+    "file": "_next/static/page-pNfUP_8g.js",
+    "name": "page",
+    "src": "app/product-categories/[slug]/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_page-header-ChK597ag.js",
+      "_product-grid-BtFSXqUC.js",
+      "_view-tracker-B9jshHCb.js",
+      "_db-CY5JNkVv.js",
+      "_site-url-B5OYaSEg.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js",
+      "_navigation.react-server-0QdkGV3i.js",
+      "_navigation-errors-YmIk8EAc.js"
+    ]
+  },
+  "app/products/[slug]/page.tsx": {
+    "file": "_next/static/page-C9AJZvpn.js",
+    "name": "page",
+    "src": "app/products/[slug]/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_chatgpt-auth-DbIbMtLP.js",
+      "_inquiry-form-CT7potkG.js",
+      "_view-tracker-B9jshHCb.js",
+      "_whatsapp-button-KUaBPej1.js",
+      "_db-CY5JNkVv.js",
+      "_site-url-B5OYaSEg.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js",
+      "_navigation.react-server-0QdkGV3i.js",
+      "_navigation-errors-YmIk8EAc.js"
+    ]
+  },
+  "app/products/page.tsx": {
+    "file": "_next/static/page-DZi8c3Vt.js",
+    "name": "page",
+    "src": "app/products/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_page-header-ChK597ag.js",
+      "_product-grid-BtFSXqUC.js",
+      "_db-CY5JNkVv.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js",
+      "_link-QnZXme29.js"
+    ]
+  },
+  "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-page-cache-render.js": {
+    "file": "_next/static/app-page-cache-render-BpHRJ2eU.js",
+    "name": "app-page-cache-render",
+    "src": "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-page-cache-render.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_cache-headers-VyhEGR6P.js",
+      "_app-page-stream-CuoU-0bl.js",
+      "_text-stream-wnAI8qFu.js",
+      "_implicit-tags-CBg7R7Gf.js",
+      "_headers-BwVXsraU.js"
+    ]
+  },
+  "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-page-cache.js": {
+    "file": "_next/static/app-page-cache-DDz4j_H8.js",
+    "name": "app-page-cache",
+    "src": "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-page-cache.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_navigation-runtime-DEBDBkAP.js",
+      "_cache-headers-VyhEGR6P.js",
+      "_app-page-cache-finalizer-BA53Xndx.js",
+      "_isr-cache-CpbGn2iH.js",
+      "_text-stream-wnAI8qFu.js",
+      "_headers-D6xdAAX3.js"
+    ]
+  },
+  "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-prerender-endpoints.js": {
+    "file": "_next/static/app-prerender-endpoints-DPAJQjg9.js",
+    "name": "app-prerender-endpoints",
+    "src": "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-prerender-endpoints.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_app-prerender-static-params-B3KsJomc.js",
+      "_http-error-responses-MHMqC7hK.js"
+    ]
+  },
+  "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-route-handler-dispatch.js": {
+    "file": "_next/static/app-route-handler-dispatch-oBVzg4uR.js",
+    "name": "app-route-handler-dispatch",
+    "src": "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-route-handler-dispatch.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-DUnMT5BP.js",
+      "_rsc-CyJub8-H.js",
+      "_framework~index~page~page~route~route~route~route~route~route~route~route~route~page~page~p~czfmq2vu-tmcJqcRj.js",
+      "_navigation-runtime-DEBDBkAP.js",
+      "_app-segment-config-SPj7C3qy.js",
+      "_cache-headers-VyhEGR6P.js",
+      "_isr-cache-CpbGn2iH.js",
+      "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-static-generation.js",
+      "_implicit-tags-CBg7R7Gf.js",
+      "_headers-BwVXsraU.js",
+      "_ppr-fallback-shell-F8H6YPkD.js",
+      "_navigation-errors-YmIk8EAc.js",
+      "_root-params-BZMBYgEb.js",
+      "_thenable-params-D5ZNex6l.js",
+      "_unified-request-context-qhL7wVUy.js",
+      "_base-path-DoTXrg9A.js"
+    ],
+    "dynamicImports": [
+      "_headers-BwVXsraU.js"
+    ]
+  },
+  "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-static-generation.js": {
+    "file": "_next/static/app-static-generation-CJqMg57t.js",
+    "name": "app-static-generation",
+    "src": "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-static-generation.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/file-based-metadata.js": {
+    "file": "_next/static/file-based-metadata-XV6ipLQh.js",
+    "name": "file-based-metadata",
+    "src": "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/file-based-metadata.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_route-pattern-CaA5oEFg.js",
+      "_metadata-routes-DfQkLlTX.js",
+      "_thenable-params-D5ZNex6l.js",
+      "_base-path-DoTXrg9A.js"
+    ]
+  },
+  "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/metadata-route-response.js": {
+    "file": "_next/static/metadata-route-response-Ci8lOKU0.js",
+    "name": "metadata-route-response",
+    "src": "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/metadata-route-response.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_http-error-responses-MHMqC7hK.js",
+      "_metadata-routes-DfQkLlTX.js",
+      "_unified-request-context-qhL7wVUy.js"
+    ]
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-DUnMT5BP.js",
+      "_whatsapp-button-KUaBPej1.js",
+      "_db-CY5JNkVv.js",
+      "_site-url-B5OYaSEg.js",
+      "_rsc-CyJub8-H.js",
+      "_framework~index-fpXJPD_H.js",
+      "_framework~index~page~page~page~page~page~page~layout~not-found~page~page~page~page~page~pag~czvyjuto-CDetdKqI.js",
+      "_framework~index~page~page~route~route~route~route~route~route~route~route~route~page~page~p~czfmq2vu-tmcJqcRj.js",
+      "_dist-ByaxdVIR.js",
+      "_route-pattern-CaA5oEFg.js",
+      "_app-segment-config-SPj7C3qy.js",
+      "_cache-headers-VyhEGR6P.js",
+      "_app-page-cache-finalizer-BA53Xndx.js",
+      "_app-page-stream-CuoU-0bl.js",
+      "_isr-cache-CpbGn2iH.js",
+      "_text-stream-wnAI8qFu.js",
+      "_app-prerender-static-params-B3KsJomc.js",
+      "_headers-D6xdAAX3.js",
+      "_http-error-responses-MHMqC7hK.js",
+      "_implicit-tags-CBg7R7Gf.js",
+      "_navigation.react-server-0QdkGV3i.js",
+      "_headers-BwVXsraU.js",
+      "_als-registry-BxXlcmpy.js",
+      "_link-QnZXme29.js",
+      "_navigation-errors-YmIk8EAc.js",
+      "_root-params-BZMBYgEb.js",
+      "_thenable-params-D5ZNex6l.js",
+      "_unified-request-context-qhL7wVUy.js",
+      "_base-path-DoTXrg9A.js",
+      "_record-DunW85rk.js"
+    ],
+    "dynamicImports": [
+      "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-prerender-endpoints.js",
+      "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-static-generation.js",
+      "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-page-cache.js",
+      "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-page-cache-render.js",
+      "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/app-route-handler-dispatch.js",
+      "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/metadata-route-response.js",
+      "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/server/file-based-metadata.js",
+      "app/api/inquiries/admin/[id]/route.ts",
+      "virtual:cloudflare/worker-entry",
+      "app/page.tsx",
+      "app/about/page.tsx",
+      "app/admin/page.tsx",
+      "app/api/categories/route.ts",
+      "app/api/events/route.ts",
+      "app/api/events/admin/route.ts",
+      "app/api/inquiries/route.ts",
+      "app/api/inquiries/admin/route.ts",
+      "app/api/media/route.ts",
+      "app/api/posts/route.ts",
+      "app/api/products/route.ts",
+      "app/blog/page.tsx",
+      "app/contact/page.tsx",
+      "app/factory/page.tsx",
+      "app/oem-odm/page.tsx",
+      "app/privacy/page.tsx",
+      "app/products/page.tsx",
+      "app/api/categories/[id]/route.ts",
+      "app/api/media/[id]/route.ts",
+      "app/api/products/[id]/route.ts",
+      "app/blog/[slug]/page.tsx",
+      "app/product-categories/[slug]/page.tsx",
+      "app/products/[slug]/page.tsx"
+    ],
+    "css": [
+      "_next/static/css/index.BtmePM6b.css"
+    ]
+  }
+}

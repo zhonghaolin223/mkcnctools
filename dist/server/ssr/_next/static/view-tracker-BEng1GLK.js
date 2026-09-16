@@ -1,0 +1,1 @@
+import{$ as e,X as t}from"../../index.js";import{n}from"./analytics-oZB7m2fC.js";var r=e(t(),1);function i({name:e,payload:t}){let i=JSON.stringify(t);return(0,r.useEffect)(()=>{n(e,JSON.parse(i))},[e,i]),null}export{i as ViewTracker};

@@ -1,0 +1,4 @@
+$ node scripts/run-framework.mjs dev
+10:27:24 [vite] (rsc) warning: client component dependency is inconsistently optimized. It's recommended to add the dependency to 'optimizeDeps.exclude'.
+  Plugin: rsc:use-client
+  File: C:/Users/Administrator/Documents/Codex/2026-09-14/can/work/mingkai-b2b/node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_15110e47e6ef08bd867585ac4743edf0/node_modules/vinext/dist/shims/internal/app-prefetch-fetch-queue.js?v=827a4acd

@@ -1,0 +1,8 @@
+import { env } from "cloudflare:workers";
+import { desc } from "drizzle-orm";
+import { getDb } from "@/db";
+import { media } from "@/db/schema";
+import { requireAdminApi } from "@/lib/admin-auth";
+
+export async function GET() { const auth = await requireAdminApi(); if (auth.response) return auth.response; try { return Response.json({ media: await getDb().select().from(media).orderBy(desc(media.createdAt)).limit(100) }); } catch { return Response.json({ error: "Media service unavailable" }, { status: 503 }); } }
+export async function POST(request: Request) { const auth = await requireAdminApi(); if (auth.response) return auth.response; try { if (!env.BUCKET) return Response.json({ error: "Media storage unavailable" }, { status: 503 }); const data = await request.formData(); const file = data.get("file"); if (!(file instanceof File) || !file.type.startsWith("image/") || file.size > 12 * 1024 * 1024) return Response.json({ error: "Upload an image up to 12 MB" }, { status: 400 }); const safeName = file.name.replace(/[^a-zA-Z0-9._-]/g, "-").slice(0, 120); const key = `uploads/${crypto.randomUUID()}-${safeName}`; await env.BUCKET.put(key, file.stream(), { httpMetadata: { contentType: file.type } }); const [record] = await getDb().insert(media).values({ key, fileName: file.name.slice(0, 255), mimeType: file.type, altText: typeof data.get("alt") === "string" ? String(data.get("alt")).slice(0, 255) : "" }).returning(); return Response.json({ media: record }, { status: 201 }); } catch (error) { console.error("media upload failed", error); return Response.json({ error: "Unable to upload media" }, { status: 503 }); } }

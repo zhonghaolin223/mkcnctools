@@ -1,0 +1,1 @@
+import{f as e,i as t,t as n}from"./db-CY5JNkVv.js";import{n as r}from"./admin-auth-ySyn46AL.js";async function i(){let i=await r();if(i.response)return i.response;try{return Response.json({inquiries:await n().select().from(t).orderBy(e(t.createdAt)).limit(100)})}catch{return Response.json({error:`Inquiry service unavailable`},{status:503})}}export{i as GET};

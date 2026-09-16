@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-C60lm6uB.js";import{i as t}from"./framework-D_rUT4EX.js";import{n}from"./analytics-By2gxur9.js";var r=e(t(),1);function i({name:e,payload:t}){let i=JSON.stringify(t);return(0,r.useEffect)(()=>{n(e,JSON.parse(i))},[e,i]),null}export{i as ViewTracker};

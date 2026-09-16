@@ -1,0 +1,1 @@
+import{t as e}from"./rsc-CyJub8-H.js";var t=e(()=>{throw Error(`Unexpectedly client reference export 'WhatsAppButton' is called on server`)},`3566c361c48e`,`WhatsAppButton`);export{t};

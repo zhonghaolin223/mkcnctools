@@ -1,0 +1,13 @@
+
+  vinext dev  (Vite 8.0.13)
+
+Sites local sign-in: seedy@sites.test
+  ➜  Local:   http://localhost:5173/
+ GET / 200 in 972ms (compile: 1789352837.2s, render: 878ms)
+ POST /api/events 201 in 251ms
+ GET / 200 in 52ms (compile: 1789352837.2s, render: 34ms)
+ GET / 200 in 51ms (compile: 1789352837.2s, render: 31ms)
+ POST /api/events 201 in 24ms
+ GET /oem-odm?_rsc 200 in 55ms (compile: 1789352837.2s, render: 0ms)
+ GET /products?_rsc 200 in 40ms (compile: 1789352837.2s, render: 0ms)
+ GET /api/products 200 in 103ms

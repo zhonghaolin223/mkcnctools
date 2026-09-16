@@ -1,0 +1,1 @@
+var e=(process.env.NEXT_PUBLIC_SITE_URL||`https://mkcnctools.com`).replace(/\/$/,``);export{e as t};

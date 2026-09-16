@@ -1,0 +1,6 @@
+import{env as e}from"cloudflare:workers";function t(e){return e.headers.get(`cf-connecting-ip`)||e.headers.get(`x-forwarded-for`)?.split(`,`)[0]?.trim()||`unknown`}async function n(e){let t=new TextEncoder().encode(e),n=await crypto.subtle.digest(`SHA-256`,t);return Array.from(new Uint8Array(n),e=>e.toString(16).padStart(2,`0`)).join(``)}async function r(r,i,a,o){if(!e.DB)return{allowed:!0,retryAfter:0};let s=Math.floor(Date.now()/1e3),c=Math.floor(s/o)*o,l=`${i}:${await n(`${i}:${t(r)}`)}:${c}`,u=await e.DB.prepare(`
+    INSERT INTO submission_limits (key, count, window_started_at, updated_at)
+    VALUES (?, 1, ?, CURRENT_TIMESTAMP)
+    ON CONFLICT(key) DO UPDATE SET count = count + 1, updated_at = CURRENT_TIMESTAMP
+    RETURNING count
+  `).bind(l,c).first();return{allowed:Number(u?.count||1)<=a,retryAfter:Math.max(1,c+o-s)}}async function i(n,r){let i=e.TURNSTILE_SECRET_KEY?.trim();if(!i)return{ok:!0,configured:!1};if(!r)return{ok:!1,configured:!0};let a=new URLSearchParams({secret:i,response:r,remoteip:t(n)}),o=await fetch(`https://challenges.cloudflare.com/turnstile/v0/siteverify`,{method:`POST`,body:a});return o.ok?{ok:(await o.json()).success===!0,configured:!0}:{ok:!1,configured:!0}}export{i as n,r as t};
